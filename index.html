@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <section class="cabecalho">
+                <img class="cabecalho__logo" src="imagens/logo-monopoly.png">
+                <nav>
+                    <ul class="cabecalho__select"> <!menu>
+                        <li>
+                            <input type="radio" name="cab__opt" id="cab__drop1" /> 
+                            <label class="cab__opener" for="cab__drop1">para empresas</label>
+                            <label class="cab__closer" for="cab__dropclose">para empresas</label>
+                            <ul class="cab_select-item">
+                                <div class="cab_select-item-div">
+                                    <h1>conheça</h1>
+                                    <a href="#">conta jurídica</a>
+                                    <a href="#">maquininha de cartão Rede</a>
+                                    <a href="#">empréstimo empresarial</a>
+                                    <a href="#">pagamentos e recebimentos</a>
+                                    <a href="#">cartão empresarial</a>
+                                    <a href="#">seguro empresarial</a>
+                                    <a href="#">câmbio e comércio exterior</a>
+                                    <a href="#">investimentos para empresas</a>
+                                    <a href="#">consórcio</a>
+                                    <a href="#">tarifas</a>
+                                </div>
+
+                                <div class="cab_select-item-div">
+                                    <h1>resolva</h1>
+                                    <a href="#">boletos</a>
+                                    <a href="#">comprovantes</a>
+                                    <a href="#">renegociação de pendências</a>
+                                    <a href="#">abrir conta jurídica</a>
+                                </div>
+
+                                <div class="cab_select-item-div-last">
+                                    <h1>servicos exclusivos</h1>
+                                    <a href="#">Monopoly BBA</a>
+                                    <a href="#">Monopoly Clientes Institucionais</a>
+                                    <a href="#">Monopoly Securities Services</a>
+                                    <a href="#">Monopoly</a>
+                                </div>
+                            </ul>
+                        </li>
+                        
+                        <li><a class="cabecalho__select-pvc" href="#">para você</a></li>
+
+                            <li>
+                                <input type="radio" name="cab__opt" id="cab__drop2" /> 
+                                <label class="cab__opener" for="cab__drop2">ajuda</label>
+                                <label class="cab__closer" for="cab__dropclose">ajuda</label>
+                                <ul class="cab_select-item">
+                                    <div class="cab_select-item-div">
+                                        <h1>central de ajuda</h1>
+                                        <a href="#">ajuda para poder público</a>
+                                        <a href="#">ajuda para você</a>
+                                    </div>
+
+                                    <div class="cab_select-item-div">
+                                        <h1>dúvidas frequentes</h1>
+                                        <a href="#">2ª via de boletos</a>
+                                        <a href="#">iToken</a>
+                                        <a href="#">bloqueio judicial</a>
+                                        <a href="#">cheques</a>
+                                        <a href="#"><strong>ver todas</strong></a>
+                                    </div>
+
+                                    <div class="cab_select-item-div-last">
+                                        <h1>fale com a gente</h1>
+                                        <a href="#">ajuda para poder público</a>
+                                        <a href="#">ajuda para você</a>
+                                        <a href="#">ajuda para poder público</a>
+                                    </div>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <input type="radio" name="cab__opt" id="cab__drop3" /> 
+                                <label class="cab__opener" for="cab__drop3">busca</label>
+                                <label class="cab__closer" for="cab__dropclose">busca</label>
+                                <ul class="cab_select-item">
+                                    <div class="cab_select-item-div">
+                                        <h1>mais buscados</h1>
+                                        <a href="#">2ª via de boletos</a>
+                                        <a href="#">iToken</a>
+                                        <a href="#">bloqueio judicial</a>
+                                        <a href="#">cheques</a>
+                                        <a href="#">ver todas</a>
+                                    </div>
+                                </ul>
+                            </li>   
+                            <input type="radio" name="cab__opt" id="cab__dropclose" />
+                        </li> 
+                    </ul>
+                </nav>
+                    
+                <div class="cabecalho__menu-form">
+                    <input class="informacoes__agencia" type="text" placeholder="agência">
+                    <input class="informacoes__conta" type="text" placeholder="conta">
+                    <a href="#"><img class="acesso__botao-cadeado" src="icones/icone_cadeado.png"></a>
+                    <a class="sinal__mais" href="#">+<strong>acessos</strong></a>
+                    <a href="#"><input class="botao_abrir" value="abra sua conta" type="submit"></a>
+                </div>
+
+            </section>
+        </header>
+
+        <main>
+            
+            <div class="hidden-md-down">
+                <a href="#">&#128587; dúvidas</a>
+            </div>
+
+            <section class="capa">
+                <h2 class="capa_titulo">começar o ano do jeito certo</h2>
+                <p class="capa_subtitulo">preparamos as melhores soluções para apoiar seu negócio</p>
+            </section>
+
+            <section class="facilidades">
+                <h3 class="facilidades_titulo">facilidades Monopoly Empresas</h3>
+
+                <ul class="facilidades_lista">
+                    <li class="facilidades_item"><a href="#">
+                            <img class="facilidades_item-icone" src="icones/facilidades_item-icone-conta.png">
+                            <p class="facilidades_item-titulo">abra sua conta</p>
+                            <p class="facilidades_item-descricao">abra sua conta 100% online</p>
+                    </a></li>
+
+                    <li class="facilidades_item"><a href="#">
+                            <img class="facilidades_item-icone" src="icones/facilidades_item-icone-credito.png">
+                            <p class="facilidades_item-titulo">crédito</p>
+                            <p class="facilidades_item-descricao">conheça os tipos de crédito para apoiar o momento do seu negócio</p>
+                    </a></li>
+
+                    <li class="facilidades_item"><a href="#">
+                            <img class="facilidades_item-icone" src="icones/facilidades_item-icone-cheque.png">
+                            <p class="facilidades_item-titulo">cheque especial</p>
+                            <p class="facilidades_item-descricao">tenha 5 dias sem juros para imprevistos</p>
+                    </a></li>
+                </ul>
+            </section>
+
+            <section class="outras_solucoes">
+                <h4 class="outras_solucoes-titulo">outras soluções para apoiar o seu negócio</h4>
+                <p class="outras_solucoes-subtitulo">conheça nossas soluções</p>
+                
+                <ul class="outras_solucoes-lista">
+
+                    <li class="outras_solucoes-item"><a>
+                        <img class="outras_solucoes-item-icone" src="icones/os-solution.png">
+                        <p class="outras_solucoes-item-titulo">crédito</p>
+                        <p class="outras_solucoes-item-descricao">conte com soluções pensadas para o perfil da sua empresa</p>
+                    </a></li>
+
+                    <li class="outras_solucoes-item"><a>
+                        <img class="outras_solucoes-item-icone" src="icones/os-credito.png">
+                        <p class="outras_solucoes-item-titulo">cartão empresarial</p>
+                        <p class="outras_solucoes-item-descricao">1ª anuidade zero para contratações online</p>
+                    </a></li>
+
+                    <li class="outras_solucoes-item"><a>
+                        <img class="outras_solucoes-item-icone" src="icones/os-machine.png">
+                        <p class="outras_solucoes-item-titulo">maquininha de cartão</p>
+                        <p class="outras_solucoes-item-descricao">receba suas vendas feitas no crédito à vista em 2 dias úteis</p>
+                    </a></li>
+
+                    <li class="outras_solucoes-item"><a>
+                        <img class="outras_solucoes-item-icone" src="icones/os-warning.png">
+                        <p class="outras_solucoes-item-titulo">seguros</p>
+                        <p class="outras_solucoes-item-descricao">tenha solução ideal para o seu negócio</p>
+                    </a></li>
+                    
+                    <li class="outras_solucoes-item"><a>
+                        <img class="outras_solucoes-item-icone" src="icones/os-pix.png">
+                        <p class="outras_solucoes-item-titulo">pix</p>
+                        <p class="outras_solucoes-item-descricao">transfira e receba pagamentos em 10 segundos</p>
+                    </a></li>
+                    
+                    <li class="outras_solucoes-item"><a>
+                        <img class="outras_solucoes-item-icone" src="icones/os-bills.png">
+                        <p class="outras_solucoes-item-titulo">boletos</p>
+                        <p class="outras_solucoes-item-descricao">receba o valor dos boletos pagos em 2 dias</p>
+                    </a></li>  
+                    
+                    <li class="outras_solucoes-item"><a>
+                        <img class="outras_solucoes-item-icone" src="icones/os-payment.png">
+                        <p class="outras_solucoes-item-titulo">pague salários</p>
+                        <p class="outras_solucoes-item-descricao">pague salários e emita holerites para funcionários</p>
+                    </a></li>
+                    
+                    <li class="outras_solucoes-item"><a>
+                        <img class="outras_solucoes-item-icone" src="icones/os-chart.png">
+                        <p class="outras_solucoes-item-titulo">investimentos</p>
+                        <p class="outras_solucoes-item-descricao">opções para fazer seu dinheiro render</p>
+                    </a></li>
+                    
+                    <li class="outras_solucoes-item"><a>
+                        <img class="outras_solucoes-item-icone" src="icones/os-pj.png">
+                        <p class="outras_solucoes-item-titulo">conta PJ</p>
+                        <p class="outras_solucoes-item-descricao">conheça nossos pacotes de serviços</p>
+                    </a></li>
+                </ul>
+            </section>
+
+            <section class="maquininha">
+                <img src="imagens/game-monopoly.jpg" class="maquininha_imagem">
+                <h5 class="maquininha_titulo">monopoly Game</h5>
+                <p class="maquininha_descricao">Você recebe suas vendas feitas à vista no crédito em 2 dias, cria catálogos online e gera links de pagamentos para vendas digitais.</p>
+                <p class="maquininha_descricao">Só no Monopoly Empresas e Rede você pode reduzir o valor do seu aluguel em até 100% de acordo com o seu faturamento e ainda conta com o Agregador de Cartões, para consultar suas vendas feitas com qualquer maquininha em um só lugar.</p>
+                <a><input class="maquininha_botao" value="saber mais" type="submit"></a>
+            </section>
+
+            <section class="cred-apoio">
+                <h6 class="cred-apoio_titulo">crédito para apoiar o seu negócio</h3>
+                <p class="cred-apoio_subtitulo">soluções que se adequam a necessidade da sua empresa</p>
+
+                <ul class="cred-apoio_lista">
+                    <li class="cred-apoio_item"><a href="#">
+                            <img class="cred-apoio_item-icone" src="icones/os-warning.png">
+                            <p class="cred-apoio_item-titulo">capital de giro</p>
+                            <p class="cred-apoio_item-descricao">crédito na hora e até 4 anos para pagar</p>
+                    </a></li>
+
+                    <li class="cred-apoio_item"><a href="#">
+                        <img class="cred-apoio_item-icone" src="icones/bank-check.png">
+                        <p class="cred-apoio_item-titulo">cheque especial</p>
+                        <p class="cred-apoio_item-descricao">participe e conte com ofertas e benefícios personalizados</p>
+                    </a></li>
+
+                    <li class="cred-apoio_item"><a href="#">
+                        <img class="cred-apoio_item-icone" src="icones/rewind-time.png">
+                        <p class="cred-apoio_item-titulo">antecipação recebíveis</p>
+                        <p class="cred-apoio_item-descricao">antecipe valores a receber e organize seu caixa</p>
+                    </a></li>
+                </ul>
+            </section>
+
+            <section class="conta-pj">
+                <p class="conta-pj_titulo">como abrir uma conta PJ</p>
+
+                <ul class="conta-pj_lista">
+                    <li class="conta-pj_item">
+                        <img class="conta-pj_icone" src="icones/number-1.png">
+                        <p class="conta-pj_descricao">Preencha as informações para criar o seu perfil</p>
+                    </li>
+
+                    <li class="conta-pj_item">
+                        <img class="conta-pj_icone" src="icones/number-2.png">
+                        <p class="conta-pj_descricao">Escolha seu plano de serviços e os produtos</p>
+                    </li>
+
+                    <li class="conta-pj_item">
+                        <img class="conta-pj_icone" src="icones/number-3.png">
+                        <p class="conta-pj_descricao">Tire uma selfie segurando o seu RG, CNH ou RNE</p>
+                    </li>
+
+                    <li class="conta-pj_item">
+                        <img class="conta-pj_icone" src="icones/number-four.png">
+                        <p class="conta-pj_descricao">Pronto! Se tudo estiver certo, você receberá os dados da conta por e-mail e SMS</p>
+                    </li>
+
+                    <li>
+                        <a><input class="conta-pj_botao" value="abrir conta" type="submit"></a>
+                    </li>
+                </ul>
+
+                <img class="conta-pj_imagem" src="imagens/pj-monopoly.jpg">
+            </section>
+
+            <section class="alem">
+            
+                <p class="alem__titulo">outras soluções para apoiar o seu negócio</p>
+                <p class="alem__subtitulo">tutorias, dicas, podcasts e informações para ajudar o seu negócio</p>
+    
+                <div class="alem__container-galeria">
+    
+                    <div class="alem__container-galeria-item w-2 h-2">
+                        <a href="#"><img class="alem__container-galeria-item-imgfundo alem__container-galeria-item--ngcio"></a>
+                        <span class="alem__container-galeria-item-title">
+                            <img class="alem__container-galeria-item-icone" src="icones/bag.png">
+                            <p class="alem__container-galeria-item-tipo">Monopoly meu negócio</p>
+                            <p class="alem__container-galeria-item-desc">Ecossistema feito para o seu negócio</p>
+                        </span>
+                    </div>
+    
+                    <div class="alem__container-galeria-item w-2 h-1">
+                        <a href="#"><img class="alem__container-galeria-item-imgfundo alem__container-galeria-item--blog"></a> 
+                        <span class="alem__container-galeria-item-title">
+                            <img class="alem__container-galeria-item-icone" src="icones/headset.png">
+                            <p class="alem__container-galeria-item-tipo">blog</p>
+                            <p class="alem__container-galeria-item-desc">Monopoly empresas</p>
+                        </span>
+                    </div>
+    
+                    <div class="alem__container-galeria-item w-1 h-1">
+                        <a href="#"><img class="alem__container-galeria-item-imgfundo alem__container-galeria-item--sol"></a> 
+                        <span class="alem__container-galeria-item-title">
+                            <img class="alem__container-galeria-item-icone" src="icones/apple.png">
+                            <p class="alem__container-galeria-item-tipo-menor">soluções para o seu negócio</p>
+                        </span>
+                    </div>
+    
+                    <div class="alem__container-galeria-item w-1 h-1">
+                        <a href="#"><img class="alem__container-galeria-item-imgfundo alem__container-galeria-item--mei"></a> 
+                        <span class="alem__container-galeria-item-title">
+                            <img class="alem__container-galeria-item-icone" src="icones/box.png">
+                            <p class="alem__container-galeria-item-tipo-menor">MEI</p>
+                        </span>
+                    </div>
+    
+                </div>
+                
+            </section>
+
+            <section class="com-voce">
+                <div>
+                    <p class="com-voce_titulo">um banco com você, onde você precisar</p>
+                    <p class="com-voce_descricao">conte com o nosso internet banking e aplicativo para simplificar o dia a dia da sua empresa. Com eles você resolve tudo  o que precisa, na palma da sua mão. </p>
+                    <a><input class="com-voce_botao" value="conheça nosso app" type="submit"></a>
+                </div>
+                <img class="com-voce_imagem" src="imagens/com-voce-monopoly.jpg">
+            </section>
+
+            <section class="duvidas">
+                <p class="duvidas__titulo">dúvidas frequentes</p>
+    
+                <ul class="menu">
+    
+                    <li class="select">
+                      <input type="radio" name="menuopt" id="drop1" />
+                      <label class="opener" for="drop1">quais documentos preciso para abrir uma conta?<img class="opener_icone" src="icones/question.png"></label>
+                      <label class="closer" for="dropclose">quais documentos preciso para abrir uma conta?<img class="closer_icone" src="icones/question.png"></label>
+                      <ul class="select-item">
+                        <li>Para abrir uma conta você precisará dos seguintes documentos:</li>
+                        <li>- comprovante de Inscrição e de Situação Cadastral no CNPJ (emitido em até 90 dias na página da Receita Federal: www.receita.fazenda.gov.br);</li>
+                        <li>- documento de constituição da empresa registrado pelo órgão competente;</li>
+                        <li>- comprovante de endereço da empresa atualizado (emitido em até 180 dias);</li>
+                        <li>- documento que autorize representantes legais da empresa a abrir conta;</li>
+                        <li>- procuração registrada em cartório, se houver procurador.</li>
+                        <li>Já para os representantes legais, sócios e procuradores, os documentos necessários são:</li>
+                        <li>- documento de identificação com foto;</li>
+                        <li>- comprovante de inscrição do CPF;</li>
+                        <li>-comprovante de endereço atualizado.</li>
+                      </ul>
+                    </li>
+    
+                    <li class="select">
+                      <input type="radio" name="menuopt" id="drop2" />
+                      <label class="opener" for="drop2">já preenchi uma proposta no site e estou aguardando retorno. O que faço agora?<img class="opener_icone" src="icones/question.png"></label>
+                      <label class="closer" for="dropclose">já preenchi uma proposta no site e estou aguardando retorno. O que faço agora?<img class="closer_icone" src="icones/question.png"></label>
+                      <ul class="select-item">
+                        <li>Aguarde nosso contato com as instruções para os próximos passos ou vá até qualquer agência Monopoly com os documentos necessários.</li>
+                      </ul>
+                    </li>
+    
+                    <li class="select"> 
+                        <input type="radio" name="menuopt" id="drop3" />
+                        <label class="opener" for="drop3">o que é o Plano Adapt?<img class="opener_icone" src="icones/question.png"></label>
+                        <label class="closer" for="dropclose">o que é o Plano Adapt?<img class="closer_icone" src="icones/question.png"></label>
+                        <ul class="select-item">
+                            <li>O Plano Adapt é o plano de serviços da conta corrente Monopoly Empresas. Com ele, você economiza nas tarifas bancárias em relação ao uso de serviços de forma avulsa. Nós temos 4 planos disponíveis e você pode escolher o que faz mais sentido para as necessidades do seu negócio.</li> 
+                            <li>Além disso, você conta com alguns serviços ilimitados inclusos, pode acompanhar o quanto já usou do plano pela internet e pode conseguir até mesmo a isenção da mensalidade do plano pelo nosso programa de bônus por relacionamento de acordo com seu faturamento com vendas na maquininha Rede e/ou o volume de investimentos aplicados aqui no Monopoly Empresas.</li>
+                        </ul>
+                        <input type="radio" name="menuopt" id="dropclose" />
+                      </li>
+                  </ul>
+    
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <p class="rodape_titulo">Empresas</p>
+        
+            <div class="rodape_lista">
+                <ul class="rodape_lista-1">
+                    <li class="rodape_item-11">
+                        <p class="rodape_item-titulo">nossos produtos</p>
+                        <a class="rodape_item-link" href="#">conta corrente</a>
+                        <a class="rodape_item-link" href="#">cartão de crédito</a>
+                        <a class="rodape_item-link" href="#">consórcio</a>
+                        <a class="rodape_item-link" href="#">seguros</a>
+                        <a class="rodape_item-link" href="#">investimentos</a>
+                        <a class="rodape_item-link" href="#">renegociação</a>
+                    </li>
+
+                    <li class="rodape_item-12">
+                        <p class="rodape_item-titulo">Monopoly</p>
+                        <a class="rodape_item-link" href="#">quem somos</a>
+                        <a class="rodape_item-link" href="#">relações com investidores</a>
+                        <a class="rodape_item-link" href="#">carreiras</a>
+                        <a class="rodape_item-link" href="#">imprensa</a>
+                        <a class="rodape_item-link" href="#">sustentabilidade</a>
+                        <a class="rodape_item-link" href="#">análises econômicas</a>
+                        <a class="rodape_item-link" href="#">termos de uso e privacidade</a>
+                        <a class="rodape_item-link" href="#">&#9855; estatuto de acessibilidade</a>
+                    </li>
+                </ul>
+
+                
+                <ul class="rodape_lista-2">
+                    <li class="rodape_item-21">
+                        <p class="rodape_item-titulo">ajuda</p>
+                        <a class="rodape_item-link" href="#">central de ajuda</a>
+                        <a class="rodape_item-link" href="#">canais Monopoly</a>
+                        <a class="rodape_item-link" href="#">encontre agências</a>
+                        <a class="rodape_item-link" href="#">segurança</a>
+                        <a class="rodape_item-link" href="#">acessos não correntistas</a>
+                    </li>
+
+                    <li class="rodape_item-22">
+                        <p class="rodape_item-titulo">veja também</p>
+                        <a class="rodape_item-link" href="#">para você</a>
+                        <a class="rodape_item-link" href="#">para empresas</a>
+                        <a class="rodape_item-link" href="#">para poder público</a>
+                        <a class="rodape_item-link" href="#">pacotes e tarifas</a>
+                    </li>
+                </ul>
+                
+                <ul class="rodape_lista-3">
+                    <li class="rodape_item-31">
+                        <p class="rodape_item-titulo">fale com o Monopoly</p>
+                        <p class="rodape_item-link-telefone">sac<a><strong>0800 728 0728</strong></a></p>
+                        <p class="rodape_item-link-telefone">ouvidoria<a><strong>0800 570 0011</strong></a></p>
+                        <a class="rodape_item-link-contato" href="#">denúncia</a>
+                        <a class="rodape_item-link-contato" href="#">envie sua mensagem</a>
+                    </li>
+
+                    <li class="rodape_item-32">
+                        <p class="rodape_item-titulo">acompanhe</p>
+                        <a class="rodape_item-link-redes" href="#"><img src="icones/instagram.png"></a>
+                        <a class="rodape_item-link-redes" href="#"><img src="icones/youtube.png"></a>
+                        <a class="rodape_item-link-redes" href="#"><img src="icones/facebook.png"></a>
+                        <a class="rodape_item-link-redes" href="#"><img src="icones/twitter.png"></a>
+                    </li>
+
+                    <li class="rodape_item-33">
+                        <p class="rodape_item-titulo">baixe o app</p>
+                        <a class="rodape_item-link-lojaapp" href="#"><img src="imagens/apple-store.webp"></a>
+                        <a class="rodape_item-link-lojaapp" href="#"><img src="imagens/google-play.webp"></a>   
+                    </li>   
+                </ul>
+            </div>
+
+            <div class="rodape_final">
+                <p>&#127758; Monopoly em outros países</p>
+
+                <ul class="rodape_final-info">
+                    <p class="rodape_final-info-cnpj">&#169; 2021 Monopoly Bank - CNPJ: 00.000.000/0001-11</p>
+                    <p class="rodape_final-info-end">Praça Monopoly, 100000000, Torre Monopoly, Parque Monopoly - CEP 11111-111 - Monopoly - USA</p>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
